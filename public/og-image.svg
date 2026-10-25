@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="630" viewBox="0 0 1200 630" fill="none">
+  <rect width="1200" height="630" fill="#0f172a"/>
+  
+  <!-- Subtle wood texture grid -->
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#1e293b" stroke-width="1"/>
+    </pattern>
+  </defs>
+  <rect width="1200" height="630" fill="url(#grid)"/>
+
+  <!-- Left Side: Brand & Value proposition -->
+  <g transform="translate(100, 120)">
+    <!-- Brand mark -->
+    <rect width="56" height="56" rx="14" fill="#f59e0b"/>
+    <path d="M18 18 L38 38 M18 38 L38 18" stroke="#0f172a" stroke-width="5" stroke-linecap="round"/>
+    <text x="74" y="38" fill="#ffffff" font-family="Inter, sans-serif" font-size="36" font-weight="800">
+      CutList<tspan fill="#f59e0b">Hero</tspan>
+    </text>
+
+    <!-- Main Title -->
+    <text x="0" y="140" fill="#ffffff" font-family="Inter, sans-serif" font-size="56" font-weight="800">
+      Free Cut List Optimizer
+    </text>
+    <text x="0" y="200" fill="#f59e0b" font-family="Inter, sans-serif" font-size="38" font-weight="700">
+      No Signup · No Daily Limit · 100% Free
+    </text>
+
+    <!-- Subtitle -->
+    <text x="0" y="260" fill="#94a3b8" font-family="Inter, sans-serif" font-size="24" font-weight="500">
+      Optimize plywood, MDF, lumber, &amp; sheet goods in seconds.
+    </text>
+    <text x="0" y="300" fill="#94a3b8" font-family="Inter, sans-serif" font-size="24" font-weight="500">
+      Mobile-first, interactive diagrams, and drag-to-rearrange.
+    </text>
+
+    <!-- Badges -->
+    <g transform="translate(0, 360)">
+      <rect width="220" height="48" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="110" y="30" text-anchor="middle" fill="#38bdf8" font-family="JetBrains Mono, monospace" font-size="16" font-weight="600">
+        4x8 Sheet Mode
+      </text>
+
+      <rect x="240" width="220" height="48" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="350" y="30" text-anchor="middle" fill="#34d399" font-family="JetBrains Mono, monospace" font-size="16" font-weight="600">
+        Linear Stock Mode
+      </text>
+
+      <rect x="480" width="220" height="48" rx="10" fill="#1e293b" stroke="#334155" stroke-width="1.5"/>
+      <text x="590" y="30" text-anchor="middle" fill="#fbbf24" font-family="JetBrains Mono, monospace" font-size="16" font-weight="600">
+        Works 100% Offline
+      </text>
+    </g>
+  </g>
+
+  <!-- Right Side: Mini Plywood Diagram Illustration -->
+  <g transform="translate(860, 110)">
+    <rect width="240" height="420" rx="10" fill="#1e293b" stroke="#475569" stroke-width="3"/>
+    
+    <!-- Cut parts -->
+    <rect x="8" y="8" width="140" height="180" rx="4" fill="#3b82f6" fill-opacity="0.85" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="78" y="98" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Side Panel</text>
+    <text x="78" y="118" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="11" text-anchor="middle">24" × 36"</text>
+
+    <rect x="156" y="8" width="76" height="180" rx="4" fill="#10b981" fill-opacity="0.85" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="194" y="98" fill="#ffffff" font-family="Inter, sans-serif" font-size="12" font-weight="700" text-anchor="middle">Shelf</text>
+    <text x="194" y="118" fill="#ffffff" font-family="JetBrains Mono, monospace" font-size="10" text-anchor="middle">12" × 36"</text>
+
+    <rect x="8" y="196" width="224" height="130" rx="4" fill="#ec4899" fill-opacity="0.85" stroke="#ffffff" stroke-width="1.5"/>
+    <text x="120" y="260" fill="#ffffff" font-family="Inter, sans-serif" font-size="14" font-weight="700" text-anchor="middle">Back Panel (36" × 48")</text>
+
+    <!-- Usable offcut scrap -->
+    <rect x="8" y="334" width="224" height="78" rx="4" fill="#334155" fill-opacity="0.6" stroke="#64748b" stroke-dasharray="4 4" stroke-width="1.5"/>
+    <text x="120" y="378" fill="#94a3b8" font-family="JetBrains Mono, monospace" font-size="12" text-anchor="middle">Usable Scrap: 14% Waste</text>
+  </g>
+</svg>
